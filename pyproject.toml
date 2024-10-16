@@ -1,0 +1,15 @@
+[project]
+name = "ott-taxonomy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "compress-json>=1.1.0",
+    "downloaders>=1.0.21",
+    "pip>=24.2",
+    "setuptools>=75.2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov", "pytest-readme", "validate_version_code"]
