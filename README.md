@@ -2,9 +2,9 @@
 This repository contains the code to download the OTT taxonomy with different versions.
 
 ## Installation
-Clone this repository and activate your environment. You can then run : 
+To install this package simply run : 
 ```bash
-pip install .
+pip install git+https://github.com/mvisani/ott-taxonomy
 ```
 
 ## Usage
