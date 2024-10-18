@@ -1,4 +1,4 @@
-"""Setup for the the NCBI Taxonomy package."""
+"""Setup for the the OTT Taxonomy package."""
 
 import os
 import re

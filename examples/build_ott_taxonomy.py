@@ -18,7 +18,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "version",
         type=str,
-        help="The version of the NCBI Taxonomy to build.",
+        help="The version of the OTT Taxonomy to build.",
     )
 
     args = parser.parse_args()
