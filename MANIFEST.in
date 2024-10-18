@@ -1,1 +1,2 @@
 include ott_taxonomy/settings/versions/*.json
+include ott_taxonomy/preprocessed.json

@@ -10,7 +10,7 @@ from ott_taxonomy import Dataset, DatasetSettings
 def build_ott_taxonomy(version: str) -> Dataset:
     """Build a version of the OTT Taxonomy."""
     settings = DatasetSettings(version=version).set_verbose()
-    return Dataset.build(settings)
+    return Dataset.download(settings)
 
 
 if __name__ == "__main__":
