@@ -20,8 +20,8 @@ ott = Dataset.load("ott3.6")
 full_graph = ott.to_networkx()
 subgraph = ott.generate_subgraph_from_id(770311)
 
-# if you want to keep the subspecies:
-subgraph = ott.generate_subgraph_from_id(770311, drop_subspecies=False)
+# if you want to remove the subspecies:
+subgraph = ott.generate_subgraph_from_id(770311, keep_subspecies=False)
 ```
 
 Or get the dataframe : 

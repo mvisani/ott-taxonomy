@@ -133,11 +133,11 @@ class Dataset:
         return graph
 
     def generate_subgraph_from_id(
-        self, node: int, drop_subspecies: bool = True
+        self, node: int, keep_subspecies: bool = True
     ) -> nx.DiGraph:
         """Generate a subgraph from a given node. This will return the node and all its children."""
         graph = self.to_networkx()
-        if drop_subspecies:
+        if not keep_subspecies:
             all_species = self._taxonomy[self._taxonomy["rank"] == "species"].uid.values
 
             ## we do a double list comprehension to get all the children of the species
